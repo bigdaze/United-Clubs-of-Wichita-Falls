@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Live Ride Child
+ Description:  Live Ride Child Theme
+ Author:       Andrew Day 
+ Author URI:   http://www.bigdazemedia.com
+ Template:     liveride
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../liveride/style.css");
+
+@font-face {
+	font-family: boston_traffic;
+	src: url('boston_traffic.ttf');
+}
+
+body #headline-wrapper {
+	background: #0d670d; /* Old browsers */
+	background: -moz-linear-gradient(left,  #0d670d 0%, #128e12 17%, #16b416 33%, #78b678 67%, #9eca9e 83%, #c5dfc5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0d670d), color-stop(17%,#128e12), color-stop(33%,#16b416), color-stop(67%,#78b678), color-stop(83%,#9eca9e), color-stop(100%,#c5dfc5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #0d670d 0%,#128e12 17%,#16b416 33%,#78b678 67%,#9eca9e 83%,#c5dfc5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #0d670d 0%,#128e12 17%,#16b416 33%,#78b678 67%,#9eca9e 83%,#c5dfc5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #0d670d 0%,#128e12 17%,#16b416 33%,#78b678 67%,#9eca9e 83%,#c5dfc5 100%); /* IE10+ */
+	background: linear-gradient(to right,  #0d670d 0%,#128e12 17%,#16b416 33%,#78b678 67%,#9eca9e 83%,#c5dfc5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d670d', endColorstr='#c5dfc5',GradientType=1 ); /* IE6-9 */
+}
+
+body #footer {
+	background: #333;
+}
+
+footer a, #main-content a {
+	text-decoration: none;
+}
+
+#footer a:hover, #main-content a:hover {
+	text-decoration: underline;
+}
+
+#left-sidebar {
+	background: #000;
+}
+
+.site-title {
+	font-family: boston_traffic, arial, helvetica, georgia, times;
+}
+
+.frm_style_formidable-style.with_frm_style input[type=submit]:hover {
+	background: #426398;
+}
+
+#sidebar {
+	margin-left: 20px;
+}
+
+figcaption {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 1.3em;
+}
